@@ -1,1 +1,1 @@
-{"table":[{"serviceName":"Calculator","host":"localhost","port":4000,"protocol":"miop","objectID":0,"invokerID":0},{"serviceName":"SciCalculator","host":"localhost","port":4000,"protocol":"miop","objectID":1,"invokerID":1}]}
+{"table":[{},{"serviceName":"Calculator","host":"localhost","port":4000,"protocol":"miop","objectID":0,"invokerID":0},{"serviceName":"Calculator","host":"localhost","port":4000,"protocol":"miop","objectID":0,"invokerID":0},{"serviceName":"SciCalculator","host":"localhost","port":4000,"protocol":"miop","objectID":1,"invokerID":1}]}

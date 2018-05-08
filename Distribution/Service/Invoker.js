@@ -24,13 +24,13 @@ class Invoker {
         console.log('[Invoker]run oepration :', operation, 'objectID :',objectID);
         
         
-        let calculadora = findObjectByKey(objectsList, 'objectID', objectID).objectInstance;
+        let objeto = findObjectByKey(objectsList, 'objectID', objectID).objectInstance;
         console.log('[Invoker] invoke message', message);
 
         let parameters = message.body.reqBody.parameters;
         console.log('[Invoker] operation ',operation, 'parameters ', parameters);
 
-        var result = calculadora[operation].apply(calculadora[operation], Array.prototype.slice.call(parameters, 0) );
+        var result = objeto[operation].apply(calculadora[operation], Array.prototype.slice.call(parameters, 0) );
         console.log('[Invoker] result ',result);
 
         

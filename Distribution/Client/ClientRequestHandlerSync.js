@@ -7,7 +7,7 @@ class ClientRequestHandlerSync {
     }
     
     
-    send(msgMarshalled,callback){
+    send(msgMarshalled){
         // console.log('[ClientRequestHandler] host:', this.host,' Port: ', this.port);
         let postData = {'message':msgMarshalled};
         

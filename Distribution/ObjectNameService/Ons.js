@@ -32,13 +32,13 @@ app.post('/lookup', function(req, res){
     res.end();
 });
 
-app.get('/lookup', function(req, res){
-    let serviceName = req.param('serviceName');
-    console.log('[ONS][lookup] serviceName ' + serviceName);
-    registry = findToObjectRegistryTable(serviceName);
-    res.json(registry);
-    res.end();
-});
+// app.get('/lookup', function(req, res){
+//     let serviceName = req.param('serviceName');
+//     console.log('[ONS][lookup] serviceName ' + serviceName);
+//     registry = findToObjectRegistryTable(serviceName);
+//     res.json(registry);
+//     res.end();
+// });
 
 
 http.listen(port, function(){
