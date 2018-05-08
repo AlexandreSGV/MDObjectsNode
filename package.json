@@ -1,0 +1,14 @@
+{
+  "name": "MidlewareOrientadoObjetos",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.2",
+    "implement-js": "0.0.25",
+    "mongodb": "^3.0.7",
+    "request": "^2.85.0",
+    "socket.io": "^2.1.0",
+    "sync-request": "^6.0.0"
+  }
+}
